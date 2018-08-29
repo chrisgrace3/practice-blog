@@ -1,20 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica Neue, Arial;
   font-size: 1.1rem;
 }
 
 h1, h2 {
-  color: green;
+  color: rgb(16, 145, 37);
   }
 
 h1 {
   font-size: 2.7rem;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-p {
+.main-text {
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+.author-text {
+  font-size: 1.2rem;
 }
